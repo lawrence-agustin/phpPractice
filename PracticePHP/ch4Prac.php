@@ -81,17 +81,12 @@ EOF;
 				######################
 				$sampleString = "I am a sample string...";
 				bbr();
-
 				#substr()
 				$subSampleStr = substr($sampleString, 0, 7);
 				echo $subSampleStr;
 				bbr();
-
 				#substr_count()
 				echo("$sampleString"." occured ".substr_count($sampleString, $subSampleStr)." times in the string ".'$sampleString');
-
-				#substr_replace()
-				
 
 
 
